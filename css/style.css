@@ -1,0 +1,262 @@
+header{
+	background-color: #fff;
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	
+}
+#skate{
+	background-image:url("../img/background 1.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:20% 0;
+	background-attachment: fixed;
+	text-align:center;
+	color:#fff
+}
+.titulo{
+	font-family: segoe ui;
+	font-size: 75px;
+	font-weight:bold;
+	text-transform: uppercase;
+	
+}
+.subtitulo{
+	font-family: segoe ui;
+	font-size: 20px;
+	font-weight:bold;
+	
+}
+.borde{
+	
+	/*background-color: #D6362A;
+	border: 0px solid #fff;
+	padding: 3px;*/
+		
+	}
+	
+#pizzeria{
+	background-image:url("../img/background 2.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:20% 0;
+	background-attachment: fixed;
+	text-align:center;
+	color:#fff
+}
+
+#events{
+	background-image:url("../img/Events+Background+1.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:20% 0;
+	background-attachment: fixed;
+	text-align:center;
+	color:#fff
+}
+#footer{
+	background-color:#464444;
+	color: #fff;
+	padding: 3px 0;
+}
+.text{
+text-align:right;
+	position:relative;
+	
+	
+}
+#img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	position: relative;
+	bottom: 5px;
+	
+}
+.btn-dorado {
+	background-color: #D6362A;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border: 0;
+}
+
+.btn-dorado:hover {
+	background-color: #fff;
+	color: #af9f66;
+}
+.white{
+	color:#fff;
+}
+
+#pizza{
+	background-image: url("../img/banner.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:20% 0;
+	background-attachment: fixed;
+	text-align: center;
+	color: #fff
+}
+span{
+	display: block;
+}
+section{
+	padding: 5%
+}
+.btn-rojo{
+	background-color: red;
+	color:#FFF;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 40px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	border: 0;
+	text-align: center;
+	object-position: center;
+	margin-bottom: 35px;
+	margin-left: 0px;
+}
+
+
+
+.carousel-item {
+	padding: 0, 90%;
+}
+
+.quote {
+	text-align: center;
+}
+
+
+h6 {
+	text-align:center;
+	margin-top: 15px;
+}
+
+
+.logo{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulodos{
+	text-align: center;
+	color: #fff;
+}
+
+.titulodos::before {
+	content:"";
+	width: 1px;
+	height: 60px;
+	background-color: #fff;
+	display: block;
+	margin: 10px auto 30px;
+	
+}
+
+
+.titulotwo::before {
+	content:"";
+	width: 1px;
+	height: 60px;
+	background-color: #fff;
+	display: block;
+	margin: 10px auto 30px;
+	
+}
+
+
+.pizzalovers{
+	position:relative;
+	top: 50px;
+	color: #fff;
+	
+}
+
+.skatelovers{
+	position:relative;
+	top: 80px;
+	color: #fff;
+}
+
+.pizzaloversparrafo{
+	position:relative;
+	top: 50px;
+	color: #fff;
+	
+}
+
+
+.skateloversparrafo{
+	position:relative;
+	top: 80px;
+	color: #fff;
+	
+}
+
+.textoabout{
+	padding:2%;
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+}
+
+
+#background{
+	background-color:#fff;
+	padding: 100px;
+}
+
+#backgrounddos{
+	background-color:#D6362A;
+}
+
+
+.titulotwo{
+	text-align:center;
+	position:relative;
+	top: 50px;
+	color: #fff;
+}
+
+.skate{
+	position: relative;
+	top: 30px;
+	
+}
+
+.img-zoom:hover img{
+	transform: scale(1.20);
+	transition: 0.3s all ease;
+}
+
+.img-zoom img{
+	transition: 0.3s all ease;
+}
+
+.gallery {
+	position: relative;
+	overflow: hidden;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(0,0,0,0.45); 
+	opacity: 0;
+	transition: 0.3s all ease-out;
+}
+
+.gallery:hover .overlay {
+	opacity: 1;
+	transition: 0.3s all ease-in;
+}
+
