@@ -3,19 +3,23 @@
 <head>
 <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Página Ollie Shack</title>
+<title>Olile Shack</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
-		<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	
+	<meta name="description" content="Olile Shack is a place for skaters and those who loves food">
+	<meta name="keywords" content="Olile Shack, skate, concerts, vans, places for skaters, pizzeria">
 </head>
 
 <body>
 	<header>
 	<div class="container" id="menu">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand wow shake" data-wow-duration="1s" data-wow-delay="1s"  href="index.html">
 				<img src="img/logo.png" alt="logotipo" class="img-fluid" width="50px">
 				</a>
  
@@ -83,26 +87,31 @@
 	</header>
 	<section id="skate">
 	<div class="container">
+		<article class="wow pulse" data-wow-duration="1s" data-wow-delay="1s">
 		<h1 class="titulo">SKATEBOARDING</h1>
+	
 		<h4 class="subtitulo">Buy the skateboard of your dreams</h4>
-			<p class="text-center mt-5"><a href="#" class="btn btn-light btn-dorado">Buy</a></p>
+			<p class="text-center mt-5"><a href="skate.html" class="btn btn-light btn-dorado">Buy</a></p>
+		</article>
 	
 		</div>
 		</section>
 			<section id="pizzeria">
 	<div class="container">
+		<article class="wow pulse" data-wow-duration="1s" data-wow-delay="1s">
 		<h1 class="titulo">Pizzeria</h1>
 		<h4 class="subtitulo">Try the best pizza in town</h4>
-		<p class="text-center mt-5"><a href="#" class="btn btn-light btn-dorado">Order</a></p>
-	
+		<p class="text-center mt-5"><a href="pizza.html" class="btn btn-light btn-dorado">Order</a></p>
+		</article>
 		</div>
 	</section>
 	<section id="events">
 	<div class="container">
+		<article class="wow pulse" data-wow-duration="1s" data-wow-delay="1s">
 		<h1 class="titulo">Events</h1>
 		<h4 class="subtitulo">Need catering? We got you covered</h4>
-		<p class="text-center mt-5"><a href="#" class="btn btn-light btn-dorado">Lear More</a></p>
-	
+		<p class="text-center mt-5"><a href="events.html" class="btn btn-light btn-dorado">Learn More</a></p>
+		</article>
 		
 	
 		</div>
@@ -146,7 +155,12 @@
 		</div>
 	
 	</footer>
-	
-	
-</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+              </script>
+	</body>
 </html>

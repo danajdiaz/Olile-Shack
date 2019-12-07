@@ -8,7 +8,12 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	
+	<meta name="description" content="About Olile Shack and what we offer for skaters, concerts and pizzeria">
+	<meta name="keywords" content="about, olile shack, skate, concerts, vans, places for skaters">
 </head>
 
 <body>
@@ -16,7 +21,7 @@
 	<header>
 	<div class="container" id="menu">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand wow shake" data-wow-duration="1s" data-wow-delay="1s" href="index.html">
 				<img src="img/logo.png" alt="logotipo" class="img-fluid" width="50px">
 				</a>
  
@@ -85,18 +90,24 @@
 	
 	<section id="background">
 	<div class="container">
-	<img src="img/logo.png" alt="logo" class="img-fluid logo" width="150px">	
+		<h2 class="titulo wow pulse" data-wow-duration="1s" data-wow-delay="1s">About</h2>
+		<br>
+	
 		<p class="textoabout">Ollie Shack is recognized for being an exclusive entertainment company, offering full services on catering for events or a thousand varities of pizza inside our establishments. We promise you a delightful ride in our skate rides, letting you live the full experience.</p>
+		
+		<img src="img/logo.png" alt="logo" class="img-fluid logo wow pulse" data-wow-duration="1s" data-wow-delay="1s" width="150px">	
 		</div>	
 		</section>
 		
 		
 		<section id="backgrounddos" class="section">
 		<div class="container">
-			<h2 class="titulodos">2018</h2>
+			<h2 class="titulodos wow pulse" data-wow-duration="1s" data-wow-delay="1s">2018</h2>
 			<div class="row mt-5">
 			<article class="col-md-6 col-sm-6 col-xs-12">
+				<div class="gallery img-zoom">
 				<img src="img/pizzaabout.jpg" alt="fotoabout2" class="img-fluid">
+				</div>
 			</article>
 			
 			<article class="col-md-6 col-sm-6 col-xs-12">
@@ -105,7 +116,7 @@
 			</article>
 				</div>
 			
-			<h2 class="titulotwo">2019</h2>
+			<h2 class="titulotwo wow pulse" data-wow-duration="1s" data-wow-delay="1s">2019</h2>
 			<div class="row mt-5">
 			<article class="col-md-6 col-sm-6 col-xs-12">
 				<h2 class="skatelovers">Skate Lovers</h2>
@@ -113,9 +124,9 @@
 				</article>
 			
 			<article class="col-md-6 col-sm-6 col-xs-12">
+				<div class="gallery img-zoom">
 				<img src="img/fotoabout2.jpg" alt="fotoabout2" class="img-fluid skate">
-			
-				
+				</div>
 			</article>
 				</div>
 			
@@ -167,7 +178,13 @@
 	
 	</footer>
 	
-	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+              </script>
 	
 </body>
 </html>

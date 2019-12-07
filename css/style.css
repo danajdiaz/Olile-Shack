@@ -1,28 +1,55 @@
+@font-face{
+	font-family: "Andralis";
+src: url(../fonts/AndralisNDSC-Bold.otf) format('OpenType');
+	 }
+@font-face {
+	font-family: "Avenir";
+src: url(../fonts/AvenirNextLTPro-Regular.otf) format('OpenType');
+	}
+@font-face{
+	font-family: "Bellabo";
+src: url(../fonts/BELLABOO-Regular.otf) format('OpenType');
+	}
+@font-face{
+	font-family: "Akzidenz";
+src: url(../fonts/AkzidenzGrotesk-BoldCond.otf) format('OpenType');
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Bellabo';
+}
+
+body {
+	font-family: 'Avenir';
+}
+
 header{
 	background-color: #fff;
 	color: #fff;
 	text-align: center;
 	padding: 0px;
-	
+	font-family: 'Bellabo';
+	letter-spacing: 1.5px;
+	font-weight: 100;
 }
 #skate{
 	background-image:url("../img/background 1.jpg");
 	background-size:cover;
 	background-position:center;
-	padding:20% 0;
+	padding:15% 0;
 	background-attachment: fixed;
 	text-align:center;
 	color:#fff
 }
 .titulo{
-	font-family: segoe ui;
 	font-size: 75px;
 	font-weight:bold;
 	text-transform: uppercase;
+	text-align: center;
 	
 }
 .subtitulo{
-	font-family: segoe ui;
 	font-size: 20px;
 	font-weight:bold;
 	
@@ -39,7 +66,7 @@ header{
 	background-image:url("../img/background 2.jpg");
 	background-size:cover;
 	background-position:center;
-	padding:20% 0;
+	padding:15% 0;
 	background-attachment: fixed;
 	text-align:center;
 	color:#fff
@@ -49,7 +76,7 @@ header{
 	background-image:url("../img/Events+Background+1.jpg");
 	background-size:cover;
 	background-position:center;
-	padding:20% 0;
+	padding:15% 0;
 	background-attachment: fixed;
 	text-align:center;
 	color:#fff
@@ -96,16 +123,17 @@ text-align:right;
 	background-image: url("../img/banner.jpg");
 	background-size:cover;
 	background-position:center;
-	padding:20% 0;
+	padding:10% 0;
 	background-attachment: fixed;
 	text-align: center;
-	color: #fff
+	color: #fff;
 }
 span{
 	display: block;
 }
 section{
-	padding: 5%
+	padding: 5%;
+	align-content: center;
 }
 .btn-rojo{
 	background-color: red;
@@ -119,7 +147,7 @@ section{
 	text-align: center;
 	object-position: center;
 	margin-bottom: 35px;
-	margin-left: 0px;
+	margin-left: 45px;
 }
 
 
@@ -138,6 +166,10 @@ h6 {
 	margin-top: 15px;
 }
 
+h6 span{
+	margin-right: 70px;
+	margin-top: 15px;
+}
 
 .logo{
 	display:block;
@@ -259,4 +291,25 @@ h6 {
 	opacity: 1;
 	transition: 0.3s all ease-in;
 }
+#skater{
+	text-align: center;
+	color: #D6362A;
+	margin-top: -35px;
+	margin-bottom: -130px;
+}
+#tabla{
+		margin-bottom: -100px;
+}
+
+.titulo.otro {
+	text-align: center;
+	margin-bottom: 28%;
+	font-size: 75px;
+	
+}
+
+#menutodo {
+	margin-left: 80px;
+}
+
 

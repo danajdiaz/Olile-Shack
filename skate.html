@@ -7,14 +7,19 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	
+	<meta name="description" content="Olile Shack is the place for skaters shop">
+	<meta name="keywords" content="skate, shop, online shop, olile shack, skaters, concerts, vans, places for skaters">
 </head>
 
 <body>
 	<header>
 	<div class="container" id="menu">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand wow shake" data-wow-duration="1s" data-wow-delay="1s" href="index.html">
 				<img src="img/logo.png" alt="logotipo" class="img-fluid" width="50px">
 				</a>
  
@@ -80,19 +85,25 @@
 		</div>
 	
 	</header>
-	<section>
-	<div class="container">
-	<hr>
-	<h5> Tablas / Ropa / Herramientas / Accesorios</h5>
-		</div>	
-	</section>
-	<section id="skate">
+	
+<section id="skate">
 		<div class="container">
+			<section id="skates">
+	<div class="container">
+		<h1 class="titulo wow pulse" data-wow-duration="1s" data-wow-delay="1s">SKATEBOARDING</h1>
+		<h4 class="subtitulo">Buy the skateboard of your dreams</h4>
+	
+		</div>
+		</section>
 	<hr>		
 			</div>
 	</section>
+
+	<section id="tabla">
+		<h5>Tablas / Ropa / Herramientas / Accesorios</h5>
+	</section>
 	<section>
-		<div class="container">
+	  <div class="container">
 			<div class="row">
 	<article class="col-md-4 col-sm-4 col-xs-12">
 		<div class="gallery">
@@ -232,5 +243,10 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+              </script>
 </body>
 </html>
