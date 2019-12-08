@@ -1,9 +1,9 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Olile Shack</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
@@ -11,8 +11,8 @@
 	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	
-	<meta name="description" content="Olile Shack is a place for skaters and those who loves food">
-	<meta name="keywords" content="Olile Shack, skate, concerts, vans, places for skaters, pizzeria">
+	<meta name="description" content="Olile Shack is the place for skaters shop">
+	<meta name="keywords" content="skate, shop, online shop, olile shack, skaters, concerts, vans, places for skaters">
 </head>
 
 <body>
@@ -30,8 +30,8 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
      <div class="borde">
-		<li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		<li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
       </li>
 		 </div>
       <div class="borde">
@@ -54,11 +54,12 @@
         <a class="nav-link" href="about.html">About</a>
       </li>
 		   </div>
-		<div class="borde">
-		<li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
+		 <div class="borde">
+		<li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
       </li>
 		   </div>
+		
 		
       <li class="nav-item dropdown d-none">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -88,39 +89,63 @@
 </nav>
 		
 		</div>
-	
 	</header>
-	<section id="skate">
-	<div class="container">
-		<article class="wow pulse" data-wow-duration="1s" data-wow-delay="1s">
-		<h1 class="titulo">SKATEBOARDING</h1>
 	
-		<h4 class="subtitulo">Buy the skateboard of your dreams</h4>
-			<p class="text-center mt-5"><a href="skate.html" class="btn btn-light btn-dorado">Buy</a></p>
-		</article>
+	<section id="contact" class="section">
+		<div class="container">
+			
+			<div class="row">
+				<article class="col-md-6 col-sm-12">
+					<h3 class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">Contact Us!</h3>
+					<p>We will call you back at the earliest</p>
+					
+						<form action="" method="post">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="name" name="name" placeholder="name" required>
+								<!--Input no tiene etiqueta de cierre-->
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6">
+								<label>E-Mail</label>
+								<input type="text" class="form-control" id="email" name="email" placeholder="e-mail" required>
+								</div>
+							
+								<div class="form-group col-md-6">
+								<label>Phone</label>
+								<input type="text" class="form-control" id="phone" name="phone" placeholder="phone">
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label>Country</label>
+								<select class="form-control" id="country" name="country">
+									<option value="HND">Honduras</option>
+									<option value="SLV">El Salvador</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
+								<textarea class="form-control" placeholder="Message" id="message" name="message" rows="4"></textarea>
+							</div>
+							
+							<div class="form-group">
+								<button type="submit" class="btn btn-light btn-rojo">Submit</button>
+							</div>
+						</form>
+				</article>
+				<article class="col-md-6 col-sm-12">
+					<div id="map"></div>
+				</article>
+			</div>
+			
+		</div>
+	</section>	
 	
-		</div>
-		</section>
-			<section id="pizzeria">
-	<div class="container">
-		<article class="wow pulse" data-wow-duration="1s" data-wow-delay="1s">
-		<h1 class="titulo">Pizzeria</h1>
-		<h4 class="subtitulo">Try the best pizza in town</h4>
-		<p class="text-center mt-5"><a href="pizza.html" class="btn btn-light btn-dorado">Order</a></p>
-		</article>
-		</div>
-	</section>
-	<section id="events">
-	<div class="container">
-		<article class="wow pulse" data-wow-duration="1s" data-wow-delay="1s">
-		<h1 class="titulo">Events</h1>
-		<h4 class="subtitulo">Need catering? We got you covered</h4>
-		<p class="text-center mt-5"><a href="events.html" class="btn btn-light btn-dorado">Learn More</a></p>
-		</article>
-		
 	
-		</div>
-	</section>
+	
+	
+	
 	<footer id="footer">
 	<div class="container">
 		<div class="row mt-5">
@@ -160,6 +185,7 @@
 		</div>
 	
 	</footer>
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
@@ -167,5 +193,47 @@
 	<script>
               new WOW().init();
               </script>
-	</body>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153105591-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153105591-1');
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<script src="js/gmaps.js"></script>	
+
+<script>
+$(function () {
+	
+	$(window).load(function(){
+		mostrarMapa();
+	});
+
+	function mostrarMapa(){
+		var map;
+		var mLat = 14.048196; //latitud
+		var mLng = -87.174212; //longitud
+
+		map = new GMaps({
+			div: '#map', //id del <div> donde se mostrará el mapa.
+			lat: mLat,
+			lng: mLng,
+			zoom: 18
+		  });
+		map.addMarker({
+		  lat: mLat,
+		  lng: mLng,
+		  title: 'Nuestra ubicación en gMaps',
+		  infoWindow: {
+			content: '<p>UNITEC - Univ. Tecnológica de Honduras</p>'
+		  }
+		});	
+		
+	}
+});
+</script>
+</body>
 </html>
